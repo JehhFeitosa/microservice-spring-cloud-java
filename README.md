@@ -11,14 +11,3 @@
 - API REST,
 - API Gateway.  
 
-###Para Startar a Micro)
-- digitar no browser http://localhost:8082/actuator/health
-
-(Retornado "UP")
-
-- seguir com inclusão
-http POST http://localhost:8082/cart/123 productId=1 amount=1
-
-- Para buscar dados
-http GET http://localhost:8082/cart/123 
-
